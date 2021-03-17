@@ -1,0 +1,69 @@
+/* 폰트 */
+@import url(https://fonts.googleapis.com/css?family=Nanum+Brush+Script:regular);
+@import url(https://fonts.googleapis.com/css?family=Song+Myung:regular);
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display:regular,500,600,700,800,900,italic,500italic,600italic,700italic,800italic,900italic);
+@import url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css);
+/* 히든처리 */
+.hidden{
+  width: 1px; height:1px; position: absolute; font-size: 0px; list-style: 0px;
+}
+/* 배경이미지 */
+.place_img{
+  background:url('../images/place.jpg') no-repeat;
+}
+.oldman_img{
+  background:url('../images/old.jpg') no-repeat;
+}
+.araby_img{
+  background:url('../images/araby.jpg') no-repeat;
+}
+.rose_img{
+  background:url('../images/rose.jpg') no-repeat;
+}
+/* 배경컬러 */
+.place_bg{
+  background-color: #FFD951;
+}
+.oldman_bg{
+  background-color: #FEAA2C;
+}
+.araby_bg{
+  background-color: #dddddd;
+}
+.rose_bg{
+  background-color: #e53b37;
+}
+/* 텍스트컬러 */
+.place{
+  color:#ffd951;
+}
+.oldman{
+  color:#FEAA2C;
+}
+.araby{
+  color:#dddddd;
+}
+.rose{
+  color:#e53b37;
+}
+/* 텍스트 설정 */
+.text{
+  position:absolute; left:0px; top:0px;
+  width:50%; height:100%; float:left;
+  font-size: 96px;
+  line-height: 96px;
+  text-shadow: 0px 4px 4px #000000;
+}
+.author{
+  font-size: 36px;
+  text-shadow: 0px 4px 4px #000000;
+}
+.eng{
+  font-weight: bold;
+  font-family:Playfair Display;
+}
+.kor{
+  font-weight: normal;
+  font-family:Song Myung;
+}
+

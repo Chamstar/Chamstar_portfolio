@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css'/>
+  <link rel='stylesheet' href='./css/reset.css'>
+  <link rel='stylesheet' href='./css/common.css'>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js'></script>
+
+  <link rel='stylesheet' href='./css/main.css'>
+  <script src='./js/main.js'></script>
+  <title>영문학 이야기</title>
+</head>
+<body>
+  <div id="main_wrap">
+    <h1>
+      <span id="main_text">참<span class='blink1'>스타</span>가 들려주는 오묘하고 신비로운 한 <span class='blink1'>번</span> 읽으면 잊혀지지 <span class='blink3'>않</span>는</span>
+      <span id="main_title">영문<span class='blink2'>학</span> 이야기</span>
+    </h1>
+    <ul id="main_list">
+      <li><img src='./images/hemingway.png' alt='어니스트 헤밍웨이, 1899-1951'></li>
+      <li><img src='./images/wordsworth.png' alt='어니스트 헤밍웨이, 1899-1951'></li>
+      <li><img src='./images/joyce.png' alt='어니스트 헤밍웨이, 1899-1951'></li>
+      <li><img src='./images/faulkner.png' alt='어니스트 헤밍웨이, 1899-1951'></li>
+    </ul>
+    <p id="scroll_btn">
+      SCROLL<br><i class="fas fa-angle-double-down"></i>
+    </p>
+  </div>
+  <section id="el_wrap">
+    <h2 class='hidden'>영문학 이야기 리스트</h2>
+    <p id="scroll_text">SCROLL TO NAVIGATE</p>
+    <div id="el_inner">
+      <div id="text_wrap">
+        <div id="text_inner">
+          <ul id="text_list">
+            <li class='place'>
+              <p class='text eng'>A Clean, Well-Lighted Place<br><span class='author eng'>Earnest Hemingway</span></p>
+              <p class='text kor'>깨끗하고, 밝은 곳<br><span class='author kor'>어니스트 헤밍웨이</p></span>
+            </li>
+            <li class='oldman'>
+              <p class='text eng'>Old Man Travelling<br><span class='author eng'>William Wordsworth</span></p>
+              <p class='text kor'>여행하는 노인<br><span class='author kor'>윌리엄 워즈워스</p></span>
+            </li>
+            <li class='araby'>
+              <p class='text eng'>Araby<br><span class='author eng'>James Joyce</span></p>
+              <p class='text kor'>애러비<br><span class='author kor'>제임스 조이스</p></span>
+            </li>
+            <li class='rose'>
+              <p class='text eng'>A Rose For Emily<br><span class='author eng'>William Faulkner</span></p>
+              <p class='text kor'>에밀리를 위한 장미 한 송이<br><span class='author kor'>윌리엄 포크너</p></span>
+            </li>
+          </ul>
+        </div>
+        <div id="el_circle">
+          <div id="el_rotate"></div>
+        </div>
+        <div id='el_read_wrap'>
+          <ul id="el_read">
+            <li class='place_bg'><a href="./place/place.html">보기</a></li>
+            <li class='oldman_bg'><a href="./oldman/oldman.html">보기</a></li>
+            <li class='araby_bg'><a href="./araby/araby.html">보기</a></li>
+            <li class='rose_bg'><a href="./rose/rose.html">보기</a></li>
+          </ul>
+        </div>
+      </div>
+      <ul id="img_list">
+        <li class='place_img'></li>
+        <li class='oldman_img'></li>
+        <li class='araby_img'></li>
+        <li class='rose_img'></li>
+      </ul>
+      
+      <ul id="slide_gather">
+        <li class='selected'></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+      
+    </div>
+  </section>
+
+  
+
+
+
+</body>
+</html>
